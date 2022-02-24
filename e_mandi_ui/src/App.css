@@ -1,0 +1,205 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #3bb78f; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+a{
+    font-family: "Cairo", sans-serif;
+}
+
+.error {
+    color: red;
+}
+
+input {
+    margin-bottom: 1% !important;
+}
+
+.box {
+    float: left;
+    
+    width: 20%;
+}
+
+.mb-2 {
+    margin-right: 0em !important;
+    margin-bottom: 1.5em !important;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    height: 1.5em !important;
+    width: 2em !important;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.card-body {
+    min-height: 0px !important;
+}
+
+.adminBox{
+    margin-top: .1em;
+    width: 100%;
+    height: 94%;
+    /* background-color: #e9ecef; */
+    border-radius: 5px;
+    border: 5px solid #e9ecef;
+    border-radius: 20px;
+
+
+}
+.ptag{
+text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: -30px;
+    font-family: "Cairo", sans-serif;
+}
+#adminLinks{
+    margin-top: 2em;
+
+    
+}
+#sidebar {
+    height: 320px;
+    max-width: 100%;
+ 
+    margin-left: 8%;
+    margin-right: 3%;
+}
+
+#list {
+    width: 100%;
+}
+
+
+
+#main {
+    padding: 2%;
+    border-radius: 0.3%;
+    border: solid black 1px;
+}
+
+
+
+#table {
+    width: 175% !important;
+   
+    padding: 5%;
+    margin-right: 3%;
+}
+
+#left-sidebar {
+   
+    margin-left: 5%;
+    width: 80%;
+    height: 390px;
+   
+}
+
+.fa-4x {
+    font-size: 6.5em !important;
+}
+
+.col-md-3 {
+    width: 80% !important;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 65%;
+}
+
+h4 {
+    text-align: center!important; 
+}
+
+h6 {
+    padding: 2%;
+}
+
+.ml-3 {
+    width: 20% !important;
+}
+.headingdash{
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    width: 100%;
+    background-color: #e9ecef;
+
+    
+}
+
+.dashitem{
+    /* border-radius: 10px;
+    background-color: #e9ecef; */
+    margin-top: 25px!important;
+    padding-bottom: 20px;
+    border: 5px solid #e9ecef;
+    border-radius: 20px;
+
+}
+
+.dashtable{
+    margin-top: 25px!important;
+    border: 5px solid #e9ecef;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+#dashboard {
+    max-width: 105%;
+    padding-top: .7% !important;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,1 @@
+﻿select o.t_id,t.c_id from order o inner join Transaction as t on t.t_id=o.t_id;

@@ -1,0 +1,130 @@
+
+
+/* NavBarfarmer css */
+
+button.swal-button.swal-button--confirm{
+  background-color: #3bb78f;
+}
+
+
+a.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: .05em;
+    text-decoration: none;
+}
+.navbar__link:hover {
+  background-color: #3bb78f!important;
+  color: #fff!important;
+  transform: translateY(-2px);
+}
+
+.logoutnavbar__link:hover {
+  background-color: red!important;
+  color: #fff!important;
+  transform: translateY(-2px);
+}
+
+.logoutnavbar__link {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .1em;
+  color: #111111;
+  padding: 10px 20px 10px 20px;
+  margin-right: .5em;
+  border-radius:5px;
+  text-align: left;
+}
+
+
+.navbar__link {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .1em;
+  color: #111111;
+  padding: 10px 20px 10px 20px;
+  margin-right: .5em;
+  border-radius:5px;
+  text-align: left;
+}
+
+
+/* NavBarfarmer css */
+.limiterF {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container-farmer100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  }
+  .wrap-farmer100 {
+
+    margin-top: 4vh;
+    width: 700px;
+    height: 70%;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*padding: 10px 20px 30px 30px;*/
+   
+  }
+  .hdf
+  {
+      color: white;
+  }
+  .alignL
+  {
+      color: white;
+      text-align: left!important;
+  }
+  .bt{
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%); 
+  }
+  .btn.btn-warning{
+    background-color: #3bb78f;
+    border: none;
+    outline: none;
+    color: #ffffff!important;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%)!important; 
+  }
+ 
+  .btn.btn-warning:hover{
+    background-image: linear-gradient(315deg, #36e4ad 0%, #087e49 74%)!important;
+    
+  }
+
+  .btn.btn-warning a{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    
+  }
+
+  .lk{
+    color: #ffffff!important;
+    text-decoration: none!important;
+  }
+  
